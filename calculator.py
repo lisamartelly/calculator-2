@@ -12,27 +12,26 @@ if tokens[0] == "q":
     quit
 else:
     if tokens[0] == "+":
-        answer = add(int(tokens[1]), int(tokens[2]))
+        answer = add(float(tokens[1]), float(tokens[2]))
         print(answer)
     if tokens[0] == "-":
-        answer = subtract(int(tokens[1]), int(tokens[2]))
+        answer = subtract(float(tokens[1]), float(tokens[2]))
         print(answer)
     if tokens[0] == "*":
-        answer = multiply(int(tokens[1]), int(tokens[2]))
+        answer = multiply(float(tokens[1]), float(tokens[2]))
         print(answer)
     if tokens[0] == "/":
-        answer = divide(int(tokens[1]), int(tokens[2]))
+        answer = divide(float(tokens[1]), float(tokens[2]))
         print(answer)
     if tokens[0] == "square":
-        answer = square(int(tokens[1]))
+        answer = square(float(tokens[1]))
         print(answer)
     if tokens[0] == "cube":
-        answer = cube(int(tokens[1]))
+        answer = cube(float(tokens[1]))
         print(answer)
     if tokens[0] == "pow":
-        answer = power(int(tokens[1]), int(tokens[2]))
+        answer = power(float(tokens[1]), float(tokens[2]))
         print(answer)
     if tokens[0] == "mod":
-        answer = mod(int(tokens[1]), int(tokens[2]))
+        answer = mod(float(tokens[1]), float(tokens[2]))
         print(answer)
-        
