@@ -6,7 +6,6 @@ from arithmetic import (add, subtract, multiply, divide, square, cube,
 
 input_string = input("> ")
 tokens = input_string.split(' ')
-print(f'{tokens}')
 
 if tokens[0] == "q":
     print("Thanks, see ya later!")
@@ -15,3 +14,7 @@ else:
     if tokens[0] == "+":
         answer = add(int(tokens[1]), int(tokens[2]))
         print(answer)
+    if tokens[0] == "-":
+        answer = subtract(int(tokens[1]), int(tokens[2]))
+        print(answer)
+
