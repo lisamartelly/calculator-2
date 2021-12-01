@@ -20,4 +20,7 @@ else:
     if tokens[0] == "*":
         answer = multiply(int(tokens[1]), int(tokens[2]))
         print(answer)
+    if tokens[0] == "/":
+        answer = divide(int(tokens[1]), int(tokens[2]))
+        print(answer)
 
