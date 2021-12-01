@@ -32,3 +32,7 @@ else:
     if tokens[0] == "pow":
         answer = power(int(tokens[1]), int(tokens[2]))
         print(answer)
+    if tokens[0] == "mod":
+        answer = mod(int(tokens[1]), int(tokens[2]))
+        print(answer)
+        
