@@ -29,3 +29,6 @@ else:
     if tokens[0] == "cube":
         answer = cube(int(tokens[1]))
         print(answer)
+    if tokens[0] == "pow":
+        answer = power(int(tokens[1]), int(tokens[2]))
+        print(answer)
